@@ -546,7 +546,7 @@
 	var email = $("#email").val();
 	var subject = $("#subject").val();
 	var message = $("#message").val();
-	var dataStore = "name" + name + "&email=" + email + "&subject" + subject + "&message" + message;
+	var dataStore = "&name=" + name + "&email=" + email + "&subject" + subject + "&message" + message;
 	console.log(dataStore);
 	$.ajax({
 		type: "POST",
